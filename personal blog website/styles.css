@@ -1,0 +1,100 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Main Content Styling */
+main {
+    padding: 20px;
+}
+
+/* Post Excerpt Styling */
+.posts .post-excerpt {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+.posts .post-excerpt h2 {
+    margin: 0;
+}
+
+.posts .post-excerpt p {
+    color: #555;
+}
+
+/* Blog Post Content Styling */
+.post-content img {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+}
+
+/* Contact Form Styling */
+.contact-form form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+}
+
+.contact-form button {
+    background: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background: #555;
+}
+
+/* Footer Styling */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
